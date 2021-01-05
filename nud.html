@@ -1,7 +1,8 @@
 <html>
 <head>
+<meta charset="utf-8">
 <title>
-	¾÷´Ù¿î °×
+	ì—…ë‹¤ìš´ ê²œ
 </title>
 </head>
 <style>
@@ -64,10 +65,10 @@ padding:0px;
 	}
 </style>
 <body>
-	<h1 class="s">¼ıÀÚ ¸ÂÃß±â °×</h1>
+	<h1 class="s">ìˆ«ì ë§ì¶”ê¸° ê²œ</h1>
 	<br>
 	<div>
-	<span>¼ıÀÚ</span>
+	<span>ìˆ«ì</span>
 	<select id="ran">
 		<option>
 			1~100
@@ -79,7 +80,7 @@ padding:0px;
 			1~10000
 		</option>
 	</select>
-	<span>±âÈ¸</span>
+	<span>ê¸°íšŒ</span>
 	<select id="chan">
 		<option>
 			10
@@ -97,7 +98,7 @@ padding:0px;
 	<div><h4 id="cl">-</h4></div>
 	<div>
 	<input id="ans" style="height: 30px;" onKeypress="javascript:if(event.keyCode==13) {bc()}">
-	<button onclick="bc();">È®ÀÎ</button>
+	<button onclick="bc();">í™•ì¸</button>
 	</div><br>
 	<a href="https://www.youtube.com/channel/UCCnA-mq75U8OLiWBRIHVsdA"><span id="asdff" class="aa">-</span></a>
 	
@@ -117,7 +118,7 @@ setInterval(function(){
 
 function bc(){
 	if(life<1){
-		alert("°ÔÀÓÀÌ ³¡³µ½À´Ï´Ù.");
+		alert("ê²Œì„ì´ ëë‚¬ìŠµë‹ˆë‹¤.");
 		return
 	}
 	let ans=parseInt(get("ans"))
